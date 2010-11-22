@@ -215,7 +215,7 @@ public class MixReaperClient {
 		parameters.add(new BasicNameValuePair("startDateTime",DateFormat.getDateTimeInstance(DateFormat.SHORT, DateFormat.FULL).format(startDate)));
 		parameters.add(new BasicNameValuePair("endDateTime",DateFormat.getDateTimeInstance(DateFormat.SHORT, DateFormat.FULL).format(endDate)));
 		parameters.add(new BasicNameValuePair("pageNumber","1"));
-		parameters.add(new BasicNameValuePair("pageSize","10"));
+		parameters.add(new BasicNameValuePair("pageSize","50"));
 		parameters.add(new BasicNameValuePair("query",jsonOject.toString()));
 		URLEncodedUtils.format(parameters,"UTF-8");
 		HttpGet httpGet = new HttpGet(serverUrl  + "/reaperfire/v1/search/radius.json?"+URLEncodedUtils.format(parameters,"UTF-8"));
