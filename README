@@ -1,1 +1,13 @@
-www.vanity-soft.com
+ReaperFireClient-Mixare , v0.1
+
+This android application was built using version 0.6.2 of the mixare's augmented reality browser engine.
+The client checks-in your current position to the ReaperFire Server as well as displays last locations
+in the browser.
+
+How to use:
+*In your "Own URL" type: http://173.64.86.5:8143 ,be sure your GPS is turned on!
+
+Notable Feature:
+*Uses BASIC AUTHENTICATION
+
+Please send questions/comments to info@vanity-soft.com.
